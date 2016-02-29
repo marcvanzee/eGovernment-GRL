@@ -11,8 +11,8 @@
 * In order to activate the OCL rules, check the box next to `Imported` to activate all imported OCL rules at once. Alternatively, click the box next to each individual OCL rule to activate it. 
 * Finally, click `Apply` and then `Ok` to save the settings.
 
-# How to import the
+# How to import the GRL models
 
-* Create a GRL model in jUCMNav (<a href="http://jucmnav.softwareengineering.ca/ucm/bin/view/ProjetSEG/JUCMNavTutorials">jUCMNav tutorials</a>)
-* Click on `jUCMNav > Verify Static Semantics`
-* If a rule is violated, the `Problems` tab will show the error message. In order to view the `Problems` tab, click on `Window > Show View > Problems`.
+* Create a new jUCMNav project (<a href="http://jucmnav.softwareengineering.ca/ucm/bin/view/ProjetSEG/JUCMNavTutorials">jUCMNav tutorials</a>).
+* Copy the file `eGovernmentEAPrinciples.jucm' into your project source folder.
+* Refresh the project.
