@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Rules>
+	<Rule>
+		<Name>PrincipleToGoal</Name>
+		<Description>All principles should contributed to at least one (soft)goal (AddedValue)</Description>
+		<Classification>grl::IntentionalElement</Classification>
+		<Query>getAllIntentionalElements()</Query>
+		<Constraint>self.getMetadata('ST_Principle') = 'Principle' 
+	implies
+		self.linksSrc
+		-&gt; select(link | link.oclIsTypeOf(grl::Contribution))
+		-&gt; collect(link | link.oclAsType(grl::Contribution)).dest
+		-&gt; select(ie | ie.oclIsTypeOf(grl::IntentionalElement))
+		-&gt; collect(ie | ie.oclAsType(grl::IntentionalElement))
+		-&gt; select(ie | ie.getMetadata('ST_Principle') = 'AddedValue')
+		-&gt; size() &gt; 0</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+	<Rule>
+		<Name>KeyActionAsTask</Name>
+		<Description>Key actions have to be modeled as tasks</Description>
+		<Classification>grl::IntentionalElement</Classification>
+		<Query>getAllIntentionalElements()</Query>
+		<Constraint>self.getMetadata('ST_Principle') = 'KeyAction'
+	implies self.type=IntentionalElementType::Task</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+	<Rule>
+		<Name>BeliefsNotStereotyped</Name>
+		<Description>Beliefs cannot be sterotyped to any kind of Principle prototype</Description>
+		<Classification>grl::Belief</Classification>
+		<Query>getAllBeliefs()</Query>
+		<Constraint>not(self.hasMetadata('ST_Principle'))</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+	<Rule>
+		<Name>PrinipleAsSoftgoal</Name>
+		<Description>Principles have to be modeled as softgoals</Description>
+		<Classification>grl::IntentionalElement</Classification>
+		<Query>getAllIntentionalElements()</Query>
+		<Constraint>self.getMetadata('ST_Principle') = 'Principle'
+	implies self.type=IntentionalElementType::Softgoal</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+	<Rule>
+		<Name>KeyActionToPrinciple</Name>
+		<Description>Each EA principle has to have at least one contribution from a Key Action</Description>
+		<Classification>grl::IntentionalElement</Classification>
+		<Query>getAllIntentionalElements()</Query>
+		<Constraint>self.getMetadata('ST_Principle') = 'Principle' 
+	implies
+		self.linksDest
+		-&gt; select(link | link.oclIsTypeOf(grl::Contribution))
+		-&gt; collect(link | link.oclAsType(grl::Contribution)).src
+		-&gt; select(ie | ie.oclIsTypeOf(grl::IntentionalElement))
+		-&gt; collect(ie | ie.oclAsType(grl::IntentionalElement))
+		-&gt; select(ie | ie.type=IntentionalElementType::Task and ie.getMetadata('ST_Principle') = 'KeyAction')
+		-&gt; size() &gt; 0</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+	<Rule><Name>ContributionFromPreconditionIsMax</Name><Description>A precondition intentional element has to always give a maximal (100 or 'make') contribution to another element.</Description><Classification>grl::IntentionalElement</Classification><Query>getAllIntentionalElements()</Query><Constraint>self.getMetadata('ST_Principle') = 'Precondition'
+  implies
+  self.linksSrc
+    -&gt; select(link | link.oclIsTypeOf(grl::Contribution))
+    -&gt; collect(link | link.oclAsType(grl::Contribution))
+    -&gt; select(link | link.quantitativeContribution &lt;&gt; 100)
+    -&gt; size() = 0</Constraint><Utilities/><WarningOnly>false</WarningOnly></Rule>
+<Rule><Name>PreconditionAsSourceOfDependency</Name><Description>A precondition cannot be modeled as the target of a dependency link (only as the source)</Description><Classification>grl::IntentionalElement</Classification><Query>getAllIntentionalElements()</Query><Constraint>self.getMetadata('ST_Principle') = 'Precondition'
+  implies
+    self.linksDest
+    -&gt; select(link | link.oclIsTypeOf(grl::Dependency))
+    -&gt; size() = 0</Constraint><Utilities/><WarningOnly>false</WarningOnly></Rule>
+	<Rule>
+		<Name>GoalToPrinciple</Name>
+		<Description>Each (soft)goal (AddedValue) of the organization has to have at least one contribution link from the set of EA principles</Description>
+		<Classification>grl::IntentionalElement</Classification>
+		<Query>getAllIntentionalElements()</Query>
+		<Constraint>self.getMetadata('ST_Principle') = 'AddedValue'
+	implies
+		self.linksDest
+		-&gt; select(link | link.oclIsTypeOf(grl::Contribution))
+		-&gt; collect(link | link.oclAsType(grl::Contribution)).src
+		-&gt; select(ie | ie.oclIsTypeOf(grl::IntentionalElement))
+		-&gt; collect(ie | ie.oclAsType(grl::IntentionalElement))
+		-&gt; select(ie | ie.getMetadata('ST_Principle') = 'Principle')
+		-&gt; size() &gt; 0</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+	<Rule>
+		<Name>AddedValueAsGoalOrSoftgoal</Name>
+		<Description>Added values are modeled as softgoals or goals</Description>
+		<Classification>grl::IntentionalElement</Classification>
+		<Query>getAllIntentionalElements()</Query>
+		<Constraint>self.getMetadata('ST_Principle') = 'AddedValue'
+	implies (self.type=IntentionalElementType::Softgoal or self.type=IntentionalElementType::Goal)</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+	<Rule>
+		<Name>NoConflicts</Name>
+		<Description>The EA principles should not propagate a conflict satisfaction value for added value.</Description>
+		<Classification>grl::IntentionalElement</Classification>
+		<Query>getAllIntentionalElements()</Query>
+		<Constraint>self.getMetadata('ST_Principle') = 'AddedValue'
+	implies
+		(self.linksDest
+			-&gt; select(link | link.oclIsTypeOf(grl::Contribution))
+			-&gt; collect(link | link.oclAsType(grl::Contribution))
+			-&gt; select(link | link.quantitativeContribution &gt; 0).src
+			-&gt; select(ie | ie.oclIsTypeOf(grl::IntentionalElement))
+			-&gt; collect(ie | ie.oclAsType(grl::IntentionalElement))
+			-&gt; select(ie | ie.getMetadata('ST_Principle') = 'Principle')
+			-&gt; size() &gt; 0) 
+				implies
+					(self.linksDest
+					-&gt; select(link | link.oclIsTypeOf(grl::Contribution))
+					-&gt; collect(link | link.oclAsType(grl::Contribution))
+					-&gt; select(link | link.quantitativeContribution &lt; 0).src
+					-&gt; select(ie | ie.oclIsTypeOf(grl::IntentionalElement))
+					-&gt; collect(ie | ie.oclAsType(grl::IntentionalElement))
+					-&gt; select(ie | ie.getMetadata('ST_Principle') = 'Principle')
+					-&gt; size() = 0)</Constraint>
+		<Utilities/>
+		<WarningOnly>false</WarningOnly>
+	</Rule>
+</Rules>
