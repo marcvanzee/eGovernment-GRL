@@ -1,9 +1,9 @@
 # How to install Eclipse and jUCMNav
 * Download the latest version of the <a href="https://www.eclipse.org/downloads/">Eclipse IDE for Java Developers</a>.
 * Install the <a href="http://jucmnav.softwareengineering.ca/ucm/bin/view/ProjetSEG/DownloadingAndInstallation">jUCMNav extension</a>.
-* Download the file `OCLRules.xml` from this directory.
 
 # How to import the OCL rules
+* Download the file `OCLRules.xml` from this directory.
 * Go to `Preferences` (on Mac: `Eclipse > Preferences`, on Windows: `Window > Preferences`). 
 * Go to `jUCMNav > Static Semantics Checking`. 
 * Click `import` and locate the XML file. The OCL rules are now imported into jUCMNav and are located in the group `Imported`. 
