@@ -4,4 +4,4 @@ Enterprise Architecture (EA) principles are normally written in natural language
 # Project Content
 
 * `Case study description`: A description of the case study eGovernment that we used.
-* `GRL Extension`: A set of OCL rules that can be imported into the jUCMNav Eclipse-based tool. The folder also contains installation instructions.
+* `GRL Extension`: A set of OCL rules that can be imported into the jUCMNav Eclipse-based tool. The folder also contains installation instructions, GRL models and screenshots of these models.
