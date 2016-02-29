@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Diana Marosin" created="February 23, 2016 8:45:09 AM CET" modified="February 23, 2016 2:49:54 PM CET" specVersion="62" urnVersion="1.27" nextGlobalID="253">
+  <ucmspec>
+    <scenarioGroups name="ScenarioGroup5" id="5">
+      <scenarios name="ScenarioDef6" id="6"/>
+    </scenarioGroups>
+  </ucmspec>
+  <grlspec>
+    <intElements name="Make our services available to everyone" id="14" description="&quot;Because we are a governmental organistaion we are obliged to make our services accessible for everybody, digitally experienced or not.&quot;" linksDest="68" refs="15 60">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Fast and efficient communication" id="16" description="&quot;Digital communication is fast and efficient for both parties&quot;" linksDest="70" refs="17 62">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Compliant behaviour from the citizens and business" id="18" description="&quot;Because we aim for compliant behavior and because digital communication does not contribute to that in all cases, we offer supplementary possibilities to contact us.&quot;" linksDest="69" refs="19 61">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Fast processes" id="30" description="&quot;Digitalization contributes to fast processes&quot;" linksDest="125" refs="31 116">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Mass processes are maximally efficient, standardized and automatized" id="32" description="&quot;The mass processes are maximally efficient standardized and automatized&quot;" linksDest="123" refs="33 118">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Decrease the use of paper" id="40" description="&quot;Digital administrations support the digitalization of customer processes and in this way decrease the use of paper&quot;" linksDest="124" type="Goal" refs="41 117">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Consistent image" id="48" description="&quot;Stakeholders have the same acces to information, which leads to a consistent image&quot;" linksDest="180" linksSrc="172" refs="49 169">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Stakeholders supervise the quality of information" id="50" description="&quot;We allow citizens, companies and intermediaries to supervize the quality of information themselves&quot;" linksDest="181" refs="51 168">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Target groups that connect and support the activitie" id="52" description="&quot;Using a variety of workspaces we offer identified target groups that support and connect the activities&quot;" linksDest="182" refs="53 167">
+      <metadata name="ST_Principle" value="AddedValue"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="We prefer to communicate digitally with citizens and companies" id="64" description="Name (essence) of the principle" linksDest="81 82 83" linksSrc="68 69 70" refs="65">
+      <metadata name="ST_Principle" value="Principle"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="We offer supplimentary possibilities to be contacted" id="72" linksSrc="81" type="Task" refs="73">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements name="Make our services accessible to everyone, digitally experienced or not" id="75" linksDest="97" linksSrc="82" type="Task" refs="76">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="We persude citizens and companies to use the internet, the preferred medium" id="77" linksSrc="83" type="Task" refs="78">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements name="We offer all electronic transactions via two channels" id="85" linksDest="249" linksSrc="96" type="Task" refs="86">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="We realize consistency in policy and execution over different channels" id="89" linksDest="96" linksSrc="97" type="Task" refs="90">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Clear view of the customer" id="99" description="Information and transactions for citizens and companies is processed via different channels into a clear view of the customer" linksDest="172" linksSrc="249" type="Task" refs="100 171">
+      <metadata name="ST_Principle" value="Precondition"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="We have an exclusively digital administration" id="119" linksDest="139 140 162" linksSrc="123 124 125 189" refs="120 188">
+      <metadata name="ST_Principle" value="Principle"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Measures to ensure saftey of our information" id="127" linksSrc="165" type="Task" refs="128">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="We archive digitally" id="131" linksSrc="139" type="Task" refs="132">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="-25"/>
+      <metadata name="_qualEval" value="WeaklyDenied"/>
+    </intElements>
+    <intElements name="Create specific applications" id="135" description="&quot;We make applications either specific for mass, automatized administrative processes or specific for activities that are focused on human interaction&quot;" linksDest="153 154" linksSrc="140" type="Task" refs="136">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Automatized administrative processes" id="142" linksSrc="153" type="Task" refs="143">
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Applications focused on human interaction" id="146" linksSrc="154" type="Task" refs="147">
+      <metadata name="_numEval" value="75"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Information is fast, trustworthy and accessible where and when needed for work" id="156" linksDest="165" linksSrc="162 237" type="Task" refs="157 236">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Digital workspaces offer customized information" id="176" linksDest="205 239 245" linksSrc="180 181 182" refs="177">
+      <metadata name="ST_Principle" value="Principle"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Develop digital administration" id="184" description="&quot;Digital workspaces are developed and managed separatley from digital administrations, with special attention to user friendly&quot;" linksDest="189" linksSrc="251 252" type="Task" refs="185">
+      <metadata name="ST_Principle" value="Precondition"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Services for retrival and modification of information" id="194" description="&quot;Digital administrations offer services for the retrival and modification of information&quot;" linksDest="252" linksSrc="207" type="Task" refs="195">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Develop and manage digital workspaces" id="201" linksDest="207 217 229" linksSrc="205" type="Task" refs="202">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Standards for how workspaces use digital administration" id="211" description="&quot;Standards are necessarly for the way in which workspaces use digital administration&quot;" linksDest="251" linksSrc="217" type="Task" refs="212">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Digital customer image" id="219" description="&quot;We have to work for the realization of a digital customer image for the digital workspaces for citizens and companies, of which the customer history with all customer contacts if part of&quot;" linksDest="227" linksSrc="229" type="Task" refs="220">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Customer histroy and customer contacts" id="221" linksSrc="227" type="Task" refs="222">
+      <metadata name="_numEval" value="75"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Employees can decide when and where to work" id="232" description="&quot;Employees experience as little limitations as possibles in their contacts with customers when deciding when and where to work. We take measures to ensure their saftey&quot;" linksDest="237" linksSrc="239" type="Task" refs="233">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="50"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Infrastructure security facilities" id="241" description="&quot;The infrastructure provides in the corresponding communication-workspace-security facilities&quot;" linksSrc="245" type="Task" refs="242">
+      <metadata name="ST_Principle" value="KeyAction"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <actors name="EA principle 4" id="22" description="In this diagram we represent the goals of the organization tackled by EA principle 4. We stereotype all goals with &lt;&lt;AddedValue>>. " contRefs="23 63 174">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </actors>
+    <actors name="EA principle 5" id="44" description="In this diagram we represent the goals of the organization tackled by EA principle 5. We stereotype all goals with &lt;&lt;AddedValue>>. " contRefs="45 115 193">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </actors>
+    <actors name="EA principle 6" id="56" description="In this diagram we represent the goals of the organization tackled by EA principle 6. We stereotype all goals with &lt;&lt;AddedValue>>. " contRefs="57 170">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </actors>
+    <links xsi:type="grl:Contribution" name="Contribution68" id="68" refs="//@urndef/@specDiagrams.0/@connections.0" dest="14" src="64"/>
+    <links xsi:type="grl:Contribution" name="Contribution69" id="69" refs="//@urndef/@specDiagrams.0/@connections.1" dest="18" src="64"/>
+    <links xsi:type="grl:Contribution" name="Contribution70" id="70" refs="//@urndef/@specDiagrams.0/@connections.2" dest="16" src="64"/>
+    <links xsi:type="grl:Contribution" name="Contribution81" id="81" refs="//@urndef/@specDiagrams.0/@connections.3" dest="64" src="72"/>
+    <links xsi:type="grl:Contribution" name="Contribution82" id="82" refs="//@urndef/@specDiagrams.0/@connections.4" dest="64" src="75"/>
+    <links xsi:type="grl:Contribution" name="Contribution83" id="83" refs="//@urndef/@specDiagrams.0/@connections.5" dest="64" src="77"/>
+    <links xsi:type="grl:Contribution" name="Contribution96" id="96" refs="//@urndef/@specDiagrams.0/@connections.6" dest="89" src="85"/>
+    <links xsi:type="grl:Contribution" name="Contribution97" id="97" refs="//@urndef/@specDiagrams.0/@connections.7" dest="75" src="89"/>
+    <links xsi:type="grl:Contribution" name="Contribution123" id="123" refs="//@urndef/@specDiagrams.1/@connections.0" dest="32" src="119"/>
+    <links xsi:type="grl:Contribution" name="Contribution124" id="124" refs="//@urndef/@specDiagrams.1/@connections.1" dest="40" src="119"/>
+    <links xsi:type="grl:Contribution" name="Contribution125" id="125" refs="//@urndef/@specDiagrams.1/@connections.2" dest="30" src="119"/>
+    <links xsi:type="grl:Contribution" name="Contribution139" id="139" refs="//@urndef/@specDiagrams.1/@connections.3" dest="119" src="131"/>
+    <links xsi:type="grl:Contribution" name="Contribution140" id="140" refs="//@urndef/@specDiagrams.1/@connections.4" dest="119" src="135"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition153" id="153" refs="//@urndef/@specDiagrams.1/@connections.5" dest="135" src="142"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition154" id="154" refs="//@urndef/@specDiagrams.1/@connections.6" dest="135" src="146"/>
+    <links xsi:type="grl:Contribution" name="Contribution162" id="162" refs="//@urndef/@specDiagrams.1/@connections.7 //@urndef/@specDiagrams.2/@connections.10" dest="119" src="156"/>
+    <links xsi:type="grl:Contribution" name="Contribution165" id="165" refs="//@urndef/@specDiagrams.1/@connections.8" dest="156" src="127"/>
+    <links xsi:type="grl:Contribution" name="Contribution172" id="172" refs="//@urndef/@specDiagrams.2/@connections.0" dest="99" src="48" contribution="Make" quantitativeContribution="100"/>
+    <links xsi:type="grl:Contribution" name="Contribution180" id="180" refs="//@urndef/@specDiagrams.2/@connections.1" dest="48" src="176"/>
+    <links xsi:type="grl:Contribution" name="Contribution181" id="181" refs="//@urndef/@specDiagrams.2/@connections.2" dest="50" src="176"/>
+    <links xsi:type="grl:Contribution" name="Contribution182" id="182" refs="//@urndef/@specDiagrams.2/@connections.3" dest="52" src="176"/>
+    <links xsi:type="grl:Contribution" name="Contribution189" id="189" refs="//@urndef/@specDiagrams.2/@connections.4" dest="184" src="119"/>
+    <links xsi:type="grl:Contribution" name="Contribution205" id="205" refs="//@urndef/@specDiagrams.2/@connections.5" dest="176" src="201"/>
+    <links xsi:type="grl:Contribution" name="Contribution207" id="207" refs="//@urndef/@specDiagrams.2/@connections.6" dest="201" src="194"/>
+    <links xsi:type="grl:Contribution" name="Contribution217" id="217" refs="//@urndef/@specDiagrams.2/@connections.7" dest="201" src="211"/>
+    <links xsi:type="grl:Contribution" name="Contribution227" id="227" refs="//@urndef/@specDiagrams.2/@connections.8" dest="219" src="221"/>
+    <links xsi:type="grl:Contribution" name="Contribution229" id="229" refs="//@urndef/@specDiagrams.2/@connections.9" dest="201" src="219"/>
+    <links xsi:type="grl:Contribution" name="Contribution237" id="237" refs="//@urndef/@specDiagrams.2/@connections.11" dest="232" src="156"/>
+    <links xsi:type="grl:Contribution" name="Contribution239" id="239" refs="//@urndef/@specDiagrams.2/@connections.12" dest="176" src="232"/>
+    <links xsi:type="grl:Contribution" name="Contribution245" id="245" refs="//@urndef/@specDiagrams.2/@connections.13" dest="176" src="241"/>
+    <links xsi:type="grl:Dependency" name="Dependency249" id="249" refs="//@urndef/@specDiagrams.0/@connections.8" dest="85" src="99"/>
+    <links xsi:type="grl:Dependency" name="Dependency251" id="251" refs="//@urndef/@specDiagrams.2/@connections.14" dest="211" src="184"/>
+    <links xsi:type="grl:Dependency" name="Dependency252" id="252" refs="//@urndef/@specDiagrams.2/@connections.15" dest="194" src="184"/>
+    <groups name="StrategiesGroup247" id="247" strategies="248"/>
+    <strategies name="EvaluationStrategy248" id="248" author="Diana Marosin" group="247">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="72">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="77">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="241">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="142">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="146">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="50" qualitativeEvaluation="WeaklySatisfied" intElement="127">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="-25" qualitativeEvaluation="WeaklyDenied" intElement="131">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="75" qualitativeEvaluation="WeaklySatisfied" intElement="221">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <impactModel/>
+    <indicatorGroup name="Time" id="7" isRedesignCategory="true"/>
+    <indicatorGroup name="Cost" id="8" isRedesignCategory="true"/>
+    <indicatorGroup name="Quality" id="9" isRedesignCategory="true"/>
+    <indicatorGroup name="Flexibility" id="10" isRedesignCategory="true"/>
+    <featureModel/>
+  </grlspec>
+  <urndef>
+    <specDiagrams xsi:type="grl:GRLGraph" name="EA principle 4" id="2" description="Principle 4: We prefer to communicate digitally with citizens and companies&#xD;We prefer to communicate with citizens and companies. Supplementary possibilities to contact us are only offered when these have additional values in the communication. If that is the case too much then we ensure that citizens and companies receive consistent information despite the channel from which they are served.&#xD;&#x2022;&#x9;Digital communication is fast and efficient for both parties&#xD;&#x2022;&#x9;Because we aim for compliant behavior and because digital communication does not contribute to that in all cases, we offer supplementary possibilities to contact us&#xD;&#x2022;&#x9;Because we are a governmental organistaion we are obliged to make our services accessible for everybody, digitally experienced or not.&#xD;&#xD;This means that&#xD;&#x2022;&#x9;We persuade citizens and companies to use internet, the preferred medium&#xD;&#x2022;&#x9;We realize consistency in policy and execution over the different channels&#xD;&#x2022;&#x9;Information and transactions of citizens and companies is processed via different channels into a clear view of the customer&#xD;&#x2022;&#x9;We offer all electronic transaction services via two channels: a basic service via a portal and a system-to-system matching (as much as possible using TechnologyX via Portal) for the fiscal employees and entrepeneurs who use commercial software packages.&#xD;">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef60" id="60" x="165" y="80" contRef="63" pred="//@urndef/@specDiagrams.0/@connections.0" def="14">
+        <metadata name="_height" value="52"/>
+        <metadata name="_width" value="119"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef61" id="61" x="326" y="44" contRef="63" pred="//@urndef/@specDiagrams.0/@connections.1" def="18">
+        <metadata name="_height" value="60"/>
+        <metadata name="_width" value="123"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef62" id="62" x="497" y="70" contRef="63" pred="//@urndef/@specDiagrams.0/@connections.2" def="16">
+        <metadata name="_height" value="53"/>
+        <metadata name="_width" value="117"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef65" id="65" x="321" y="166" contRef="63" succ="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.1 //@urndef/@specDiagrams.0/@connections.2" pred="//@urndef/@specDiagrams.0/@connections.3 //@urndef/@specDiagrams.0/@connections.4 //@urndef/@specDiagrams.0/@connections.5" def="64">
+        <metadata name="_height" value="65"/>
+        <metadata name="_width" value="146"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef73" id="73" x="116" y="214" contRef="63" succ="//@urndef/@specDiagrams.0/@connections.3" def="72">
+        <metadata name="_height" value="67"/>
+        <metadata name="_width" value="122"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef76" id="76" x="373" y="259" contRef="63" succ="//@urndef/@specDiagrams.0/@connections.4" pred="//@urndef/@specDiagrams.0/@connections.7" def="75">
+        <metadata name="_height" value="63"/>
+        <metadata name="_width" value="131"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef78" id="78" x="545" y="203" contRef="63" succ="//@urndef/@specDiagrams.0/@connections.5" def="77">
+        <metadata name="_height" value="62"/>
+        <metadata name="_width" value="141"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef86" id="86" x="355" y="374" contRef="63" succ="//@urndef/@specDiagrams.0/@connections.6 //@urndef/@specDiagrams.0/@connections.8" def="85">
+        <metadata name="_height" value="60"/>
+        <metadata name="_width" value="133"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef90" id="90" x="193" y="320" contRef="63" succ="//@urndef/@specDiagrams.0/@connections.7" pred="//@urndef/@specDiagrams.0/@connections.6" def="89">
+        <metadata name="_height" value="67"/>
+        <metadata name="_width" value="118"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef100" id="100" x="569" y="312" contRef="63" pred="//@urndef/@specDiagrams.0/@connections.8" def="99">
+        <metadata name="_height" value="59"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef63" id="63" x="38" y="24" width="731" height="433" contDef="22" nodes="60 61 62 65 73 76 78 86 90 100">
+        <label/>
+      </contRefs>
+      <connections xsi:type="grl:LinkRef" source="65" target="60" link="68">
+        <label deltaX="27" deltaY="13"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="65" target="61" link="69">
+        <label deltaX="38" deltaY="-9"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="65" target="62" link="70">
+        <label deltaX="-30" deltaY="7"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="73" target="65" link="81">
+        <label deltaX="21" deltaY="-23"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="76" target="65" link="82">
+        <label deltaX="39" deltaY="3"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="78" target="65" link="83">
+        <label deltaX="-18" deltaY="-58"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="86" target="90" link="96">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="90" target="76" link="97">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="86" target="100" link="249"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="grl:GRLGraph" name="EA principle 5" id="11" description="Principle 5: We have an exclusively digital administration&#xD;The information that come forth out of our interactions with citizens and companies and other chain partners are recorded exclusively in a digital administration. A digital administration is designed based on specific laws and legislation and also contains standardized processing.&#xD;&#x2022;&#x9;Digitalization contributes to fast processes&#xD;&#x2022;&#x9;The mass processes are maximally efficient standardized and automatized&#xD;&#x2022;&#x9;Digitalization of administration makes room for human work, that we use where human insight is necessary&#xD;&#x2022;&#x9;Digital administrations support the digitalization of customer processes and in this way decrease the use of paper&#xD;&#xD;This means that:&#xD;&#x2022;&#x9;The information in digital administrations are fast and trustworthy accessible where and when necessary for the work&#xD;&#x2022;&#x9;We make applications either specific for mass, automatized administrative processes or specific for activities that are focused on human interaction&#xD;&#x2022;&#x9;Where we administer digitally we also archive digitally&#xD;&#x2022;&#x9;We take measures so that the safety of our information is ensured.&#xD;">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef116" id="116" x="222" y="70" contRef="115" pred="//@urndef/@specDiagrams.1/@connections.2" def="30">
+        <metadata name="_height" value="57"/>
+        <metadata name="_width" value="116"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef117" id="117" x="385" y="48" contRef="115" pred="//@urndef/@specDiagrams.1/@connections.1" def="40">
+        <metadata name="_height" value="49"/>
+        <metadata name="_width" value="125"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef118" id="118" x="584" y="93" contRef="115" pred="//@urndef/@specDiagrams.1/@connections.0" def="32">
+        <metadata name="_height" value="69"/>
+        <metadata name="_width" value="138"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef120" id="120" x="365" y="158" contRef="115" succ="//@urndef/@specDiagrams.1/@connections.0 //@urndef/@specDiagrams.1/@connections.1 //@urndef/@specDiagrams.1/@connections.2" pred="//@urndef/@specDiagrams.1/@connections.3 //@urndef/@specDiagrams.1/@connections.4 //@urndef/@specDiagrams.1/@connections.7" def="119">
+        <metadata name="_height" value="49"/>
+        <metadata name="_width" value="135"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef128" id="128" x="229" y="352" contRef="115" succ="//@urndef/@specDiagrams.1/@connections.8" def="127">
+        <metadata name="_height" value="61"/>
+        <metadata name="_width" value="124"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef132" id="132" x="375" y="253" contRef="115" succ="//@urndef/@specDiagrams.1/@connections.3" def="131">
+        <metadata name="_height" value="53"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef136" id="136" x="597" y="242" contRef="115" succ="//@urndef/@specDiagrams.1/@connections.4" pred="//@urndef/@specDiagrams.1/@connections.5 //@urndef/@specDiagrams.1/@connections.6" def="135">
+        <metadata name="_height" value="55"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef143" id="143" x="424" y="355" contRef="115" succ="//@urndef/@specDiagrams.1/@connections.5" def="142">
+        <metadata name="_height" value="52"/>
+        <metadata name="_width" value="130"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef147" id="147" x="570" y="354" contRef="115" succ="//@urndef/@specDiagrams.1/@connections.6" def="146">
+        <metadata name="_height" value="53"/>
+        <metadata name="_width" value="128"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef157" id="157" x="145" y="240" contRef="115" succ="//@urndef/@specDiagrams.1/@connections.7" pred="//@urndef/@specDiagrams.1/@connections.8" def="156">
+        <metadata name="_height" value="56"/>
+        <metadata name="_width" value="169"/>
+      </nodes>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef115" id="115" x="89" y="13" width="711" height="471" contDef="44" nodes="116 117 118 120 128 132 136 143 147 157">
+        <label/>
+      </contRefs>
+      <connections xsi:type="grl:LinkRef" source="120" target="118" link="123">
+        <label deltaX="20" deltaY="-31"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="120" target="117" link="124">
+        <label deltaX="24" deltaY="-23"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="120" target="116" link="125">
+        <label deltaX="24" deltaY="8"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="132" target="120" link="139">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="136" target="120" link="140">
+        <label deltaX="24"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="143" target="136" link="153"/>
+      <connections xsi:type="grl:LinkRef" source="147" target="136" link="154"/>
+      <connections xsi:type="grl:LinkRef" source="157" target="120" link="162">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="128" target="157" link="165">
+        <label deltaX="25" deltaY="-7"/>
+      </connections>
+    </specDiagrams>
+    <specDiagrams xsi:type="grl:GRLGraph" name="EA principle 6" id="12" description="Principles 6: Digital workspaces offer customized information &#xD;Employees, but also citizens and companies, use digital workspaces to execute their activities. These workspaces offer always and everywhere access to administrations and offer tools that support the activities that have to be executed.&#xD;&#x2022;&#x9;Stakeholders have the same access to information which leads to a consistent image&#xD;&#x2022;&#x9;We allow citizens, companies and intermediaries to supervise the quality of information themselves&#xD;&#x2022;&#x9;Using a variety of workspaces we offer identified target groups the support and connect with the activities&#xD;&#xD;This means that:&#xD;&#x2022;&#x9;Digital workspaces are developed and managed separately from digital administrations, with special attention to user friendliness&#xD;&#x2022;&#x9;Digital administrations offer services for the retrieval and modification of information&#xD;&#x2022;&#x9;Standards are necessary for the way in which workspaces use digital administrations&#xD;&#x2022;&#x9;We have to work for a realization of a digital customer image for the digital workspace for citizens and companies, of which the customer history with all customer contacts is part of.&#xD;&#x2022;&#x9;Employees experience as little limitations as possible in their contacts with customers when decided where and when to work. We take measures to ensure their safety.&#xD;&#x2022;&#x9;The infrastructure provides in the corresponding communication-workspace-security facilities.&#xD;">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef167" id="167" x="201" y="147" contRef="170" pred="//@urndef/@specDiagrams.2/@connections.3" def="52">
+        <metadata name="_height" value="60"/>
+        <metadata name="_width" value="131"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef168" id="168" x="350" y="124" contRef="170" pred="//@urndef/@specDiagrams.2/@connections.2" def="50">
+        <metadata name="_height" value="63"/>
+        <metadata name="_width" value="116"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef169" id="169" x="492" y="166" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.0" pred="//@urndef/@specDiagrams.2/@connections.1" def="48">
+        <metadata name="_height" value="54"/>
+        <metadata name="_width" value="119"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef171" id="171" x="812" y="128" contRef="174" pred="//@urndef/@specDiagrams.2/@connections.0" def="99">
+        <metadata name="_height" value="59"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef177" id="177" x="335" y="291" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.1 //@urndef/@specDiagrams.2/@connections.2 //@urndef/@specDiagrams.2/@connections.3" pred="//@urndef/@specDiagrams.2/@connections.5 //@urndef/@specDiagrams.2/@connections.12 //@urndef/@specDiagrams.2/@connections.13" def="176">
+        <metadata name="_height" value="58"/>
+        <metadata name="_width" value="127"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef185" id="185" x="106" y="331" contRef="170" pred="//@urndef/@specDiagrams.2/@connections.4 //@urndef/@specDiagrams.2/@connections.14 //@urndef/@specDiagrams.2/@connections.15" def="184">
+        <metadata name="_height" value="56"/>
+        <metadata name="_width" value="142"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef188" id="188" x="-180" y="183" contRef="193" succ="//@urndef/@specDiagrams.2/@connections.4" pred="//@urndef/@specDiagrams.2/@connections.10" def="119">
+        <metadata name="_height" value="49"/>
+        <metadata name="_width" value="135"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef195" id="195" x="118" y="537" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.6 //@urndef/@specDiagrams.2/@connections.15" def="194">
+        <metadata name="_height" value="53"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef202" id="202" x="434" y="460" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.5" pred="//@urndef/@specDiagrams.2/@connections.6 //@urndef/@specDiagrams.2/@connections.7 //@urndef/@specDiagrams.2/@connections.9" def="201">
+        <metadata name="_height" value="55"/>
+        <metadata name="_width" value="132"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef212" id="212" x="221" y="447" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.7 //@urndef/@specDiagrams.2/@connections.14" def="211">
+        <metadata name="_height" value="58"/>
+        <metadata name="_width" value="138"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef220" id="220" x="393" y="569" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.9" pred="//@urndef/@specDiagrams.2/@connections.8" def="219">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef222" id="222" x="325" y="650" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.8" def="221">
+        <metadata name="_height" value="53"/>
+        <metadata name="_width" value="119"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef233" id="233" x="599" y="461" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.12" pred="//@urndef/@specDiagrams.2/@connections.11" def="232">
+        <metadata name="_height" value="59"/>
+        <metadata name="_width" value="131"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef236" id="236" x="-205" y="296" contRef="193" succ="//@urndef/@specDiagrams.2/@connections.10 //@urndef/@specDiagrams.2/@connections.11" def="156">
+        <metadata name="_height" value="56"/>
+        <metadata name="_width" value="169"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef242" id="242" x="610" y="359" contRef="170" succ="//@urndef/@specDiagrams.2/@connections.13" def="241">
+        <metadata name="_height" value="58"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef170" id="170" x="41" y="88" width="711" height="632" contDef="56" nodes="167 168 169 177 185 195 202 212 220 222 233 242">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef174" id="174" x="756" y="49" width="243" height="228" contDef="22" nodes="171">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef193" id="193" x="-239" y="159" width="247" height="231" contDef="44" nodes="188 236">
+        <label/>
+      </contRefs>
+      <connections xsi:type="grl:LinkRef" source="169" target="171" link="172">
+        <label deltaX="24" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="177" target="169" link="180">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="177" target="168" link="181">
+        <label deltaX="33" deltaY="-10"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="177" target="167" link="182">
+        <label deltaX="21" deltaY="4"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="188" target="185" link="189">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="202" target="177" link="205">
+        <label deltaX="25" deltaY="-9"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="195" target="202" link="207">
+        <label deltaX="-13" deltaY="-43"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="212" target="202" link="217">
+        <label deltaX="18" deltaY="-31"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="222" target="220" link="227">
+        <label deltaX="21" deltaY="-24"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="220" target="202" link="229">
+        <label deltaX="-35" deltaY="-4"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="236" target="188" link="162">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="236" target="233" link="237">
+        <label deltaX="32" deltaY="-15"/>
+        <bendpoints x="-116" y="625"/>
+        <bendpoints x="459" y="838"/>
+        <bendpoints x="664" y="754"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="233" target="177" link="239">
+        <label deltaX="4" deltaY="-43"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="242" target="177" link="245">
+        <label deltaX="-16" deltaY="-49"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="212" target="185" link="251"/>
+      <connections xsi:type="grl:LinkRef" source="195" target="185" link="252"/>
+    </specDiagrams>
+    <specDiagrams xsi:type="grl:GRLGraph" name="eGovernment goals" id="13" description="In this GRL graph we represent the goals of the organization. We group the goals based on their originating principle. In each GRL intentional elemnet's description we add the text in natural language that corresponds to the specific intentional element.">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef15" id="15" x="110" y="45" contRef="23" def="14">
+        <metadata name="_height" value="52"/>
+        <metadata name="_width" value="119"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef17" id="17" x="114" y="189" contRef="23" def="16">
+        <metadata name="_height" value="53"/>
+        <metadata name="_width" value="117"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef19" id="19" x="114" y="117" contRef="23" def="18">
+        <metadata name="_height" value="60"/>
+        <metadata name="_width" value="123"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef31" id="31" x="443" y="43" contRef="45" def="30">
+        <metadata name="_height" value="57"/>
+        <metadata name="_width" value="116"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef33" id="33" x="426" y="173" contRef="45" def="32">
+        <metadata name="_height" value="69"/>
+        <metadata name="_width" value="138"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef41" id="41" x="435" y="109" contRef="45" def="40">
+        <metadata name="_height" value="49"/>
+        <metadata name="_width" value="125"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef49" id="49" x="776" y="209" contRef="57" def="48">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef51" id="51" x="772" y="131" contRef="57" def="50">
+        <metadata name="_height" value="63"/>
+        <metadata name="_width" value="116"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef53" id="53" x="771" y="55" contRef="57" def="52">
+        <metadata name="_height" value="60"/>
+        <metadata name="_width" value="131"/>
+      </nodes>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef23" id="23" x="27" y="18" width="300" height="261" contDef="22" nodes="19 15 17">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef45" id="45" x="347" y="29" width="299" height="241" contDef="44" nodes="33 41 31">
+        <label/>
+      </contRefs>
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef57" id="57" x="681" y="30" width="292" height="244" contDef="56" nodes="51 53 49">
+        <label/>
+      </contRefs>
+    </specDiagrams>
+  </urndef>
+  <metadata name="_Use0to100EvaluationRange" value="false"/>
+</urn:URNspec>
